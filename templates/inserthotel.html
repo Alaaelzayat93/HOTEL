@@ -1,0 +1,35 @@
+<form class="well col-xs-8 col-xs-offset-2" ng-submit="insert()">
+
+    <div class="form-group">
+        <label>hotel name</label>
+        <input type="text" class="form-control" ng-model="name" required>
+    </div>
+
+    <div class="form-group">
+        <label>place</label>
+        <input type="text" class="form-control" ng-model="place" required>
+    </div>
+
+    <div class="form-group">
+        <label  class="col-xs-4 col-sm-2 col-md-2 col-lg-2">Type</label>
+        <select>
+            <option type="3star">3star</option>
+            <option type="5star">5star</option>
+            <option type="7star">7star</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control" ng-model="descr" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" onchange="angular.element(this).scope().prepare(this)"><br>
+        <img src="{{image}}" style="width: 400px;height: 220px">
+    </div>
+
+    <button class="btn btn-success btn-lg">Insert</button>
+
+</form>

@@ -1,0 +1,16 @@
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>id</th>
+        <th>hotel-Id</th>
+        <th>place</th>
+        <th>type</th>
+        <th>descr</th>
+    </tr>
+    <tr ng-repeat="item in basket">
+        <td>{{$index+1}}</td>
+        <td>{{item.hotel-Id}}</td>
+        <td>{{item.place}}</td>
+        <td>{{item.type}}</td>
+        <td>{{item.descr}}</td>
+    </tr>
+</table>

@@ -1,0 +1,19 @@
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>id</th>
+        <th>Price</th>
+        <th>type</th>
+        <th>description</th>
+		<th>img</th>
+        <th>timeBooked</th>
+    </tr>
+    <tr ng-repeat="item in store">
+        <td>{{$index+1}}</td>
+		<td>{{item.price}}</td>
+        <td>{{item.type}}</td>
+        <td>{{item.description}}</td>
+        <td>{{item.timeBooked}}</td>
+		<td> <img src="{{item.img}}" style="width:120px;height: 65px"> </td>
+        <td><button class="btn btn-default">buy</button> </td>
+    </tr>
+</table>
