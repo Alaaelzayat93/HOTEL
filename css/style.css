@@ -7,6 +7,7 @@
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     -o-box-sizing:border-box;
+    font-family: 'Playfair Display', serif;
     
 
 }
@@ -41,7 +42,7 @@ body{
 
 
 .navbar{
-     background-color: #b06708;
+     background-color: #3673a3;
    
 width: 100%;   
 
@@ -71,6 +72,11 @@ width: 100%;
 .nav-item dropdown{
     color: #fff;
 }
+.navbar .navbar-nav i{
+	line-height: 3;
+    margin-left: 20px;
+    color: #fff;
+}
 
 .navbar .navbar-nav .active .nav-link,
 .navbar .navbar-nav .nav-link:hover{
@@ -91,7 +97,7 @@ width: 100%;
 
 
 
-
+position: relative;
 background: linear-gradient(#386e9c,rgba(187,145,47,0.23)),url(../img/hotel1.jpg) no-repeat;
 background-size: cover;
 
@@ -122,6 +128,7 @@ color: #fff;
     margin-top: 20%;
     transform: translate(50%,-50%);
     top:20%;
+    padding: 10px;
     
 }
 @media(max-width: 768px){
@@ -352,15 +359,22 @@ padding: 20px;
 }
 /*gallery*/
 .gallery{
-	height: 100px;
+	background: #f2f2f2;
 	padding: 100px 0;
-	
+
 }
 .gallery img{
 	max-width: 100%;
 }
 .gallery h1{
 	text-align: center;
+}
+.gallery hr{
+	width: 9%;
+	height: 4px;
+    background: #ff9000;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .gallery p{
 	width: 54%;
@@ -370,4 +384,30 @@ padding: 20px;
     margin-bottom: 20px;
 
 }
-
+/*category*/
+.category{
+	padding:50px 0;
+	background: #f2f2f2;
+}
+.category h2{
+	text-align: center;
+	
+}
+.category hr{
+	width: 9%;
+	height: 4px;
+    background: #ff9000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.category .category-info{
+	border: 1px solid #ff9000;
+	padding: 50px;
+	text-align: center;
+}
+.category .category-info i{
+	color: #ff9000;
+}
+.category .root{
+	margin-top:10px;
+}
