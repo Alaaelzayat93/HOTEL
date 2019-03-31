@@ -405,6 +405,13 @@ padding: 20px;
 	padding: 50px;
 	text-align: center;
 }
+.category .category-info:hover{
+	background: #ff9000;
+	color: #fff;
+}
+.category .category-info:hover i{
+	color: #fff;
+}
 .category .category-info i{
 	color: #ff9000;
 }
