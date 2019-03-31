@@ -6,15 +6,14 @@
 /*
  * 	Green theme - Owl Carousel CSS File
  */
- .owl-theme{
-  position: relative;
- }
+ 
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
   font-size: 42px;
     color: #ff1756;
+    display: none;
   
    }
   .owl-theme .owl-nav [class*='owl-'] {
@@ -40,7 +39,8 @@
 
 .owl-theme .owl-dots {
   text-align: center;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent; 
+    margin-top: 20px;}
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     background: none !important;

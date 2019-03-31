@@ -66,7 +66,7 @@ width: 100%;
 .navbar .navbar-nav .nav-link{
     color: #fff;
     
-    font-size: 21px;
+    font-size: 18px;
 }
 .nav-item dropdown{
     color: #fff;
@@ -304,7 +304,7 @@ background-position: center;}
    margin: 100px auto;
    height: 350px;
    padding: 20px;
-   
+
 }
 #News .rest img{
 max-width: 80%;
@@ -350,3 +350,24 @@ padding: 20px;
 	    color: #7b6e6e;
     width: 75%;
 }
+/*gallery*/
+.gallery{
+	height: 100px;
+	padding: 100px 0;
+	
+}
+.gallery img{
+	max-width: 100%;
+}
+.gallery h1{
+	text-align: center;
+}
+.gallery p{
+	width: 54%;
+    margin: auto;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
