@@ -31,7 +31,7 @@ html{
 
 body{
     font-family: 'Roboto Slab', serif;
-    height: 5000px;
+   
     
 
 }
@@ -398,7 +398,7 @@ padding: 20px;
 	height: 4px;
     background: #ff9000;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .category .category-info{
 	border: 1px solid #ff9000;
@@ -417,4 +417,77 @@ padding: 20px;
 }
 .category .root{
 	margin-top:10px;
+}
+/*footer*/
+.footer{
+    background: #383838  ;
+    
+    color: #fff;
+}
+
+.footer .contact{
+    min-height: 200px;
+    margin: 30px;
+}
+.footer .contact h3{
+        text-transform: uppercase;
+       
+}
+.footer .contact .icons{
+    color: #fff;
+}
+.footer .contact .icons i{
+    background: #ff9000;
+    padding: 4px 6px;
+}
+
+.footer .links{
+    margin: 30px;
+}
+.footer .plog2{
+    margin: 30px;
+}
+.footer .plog2 img{
+    width: 30%;
+    float:left;
+    height: 60px;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+.footer .plog2 .content{
+    width: 64%;
+    float:left;
+
+}
+.footer .plog2 .content time{
+    font-size: 10px;
+}
+.footer .news{
+    padding: 28px;
+}
+.footer .news input{
+    background: #fff;
+    border: 0;
+    position: relative;
+    padding: 10px 2px;
+}
+.footer .news #btn1{
+    position: absolute;
+        padding: 11px 2px;
+    width: 12%;
+    background: #ff9000;
+    border: 0;
+}
+@media screen and(max-width: 567){
+    .footer .plog2 img{
+        width: 50%;
+        
+    }
+}
+/*footer2*/
+.footer2{
+	background: #3673a3;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
 }
