@@ -5,7 +5,7 @@ $(function(){
   
   // loading
  $(window).load(function() {
-  $(".loading,.spinner ").fadeOut(1000);
+  $(".loading,.spinner ").fadeOut(100);
  });
   $('.header').height($(window).height());
   $(window).resize(function(){
