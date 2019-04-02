@@ -405,6 +405,8 @@ padding: 20px;
 	border: 1px solid #ff9000;
 	padding: 50px;
 	text-align: center;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 .category .category-info:hover{
 	background: #ff9000;
@@ -483,6 +485,7 @@ padding: 20px;
 @media screen and(max-width: 567){
     .footer .plog2 img{
         width: 50%;
+        float: none;
         
     }
 }
@@ -495,4 +498,9 @@ padding: 20px;
 }
 .footer2 i{
 	color: #ff9000;
+}
+@media screen and (max-width: 567px){
+  .footer .plog2{
+    margin: 0;
+}
 }
