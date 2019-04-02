@@ -2,6 +2,11 @@
 $(function(){
   'use strict'
   //adjust header height
+  
+  // loading
+ $(window).load(function() {
+  $(".loading,.spinner ").fadeOut(1000);
+ });
   $('.header').height($(window).height());
   $(window).resize(function(){
     $('.header').height($(window).height());
@@ -91,6 +96,8 @@ $(".owl-carousel").owlCarousel({
         }
     }
 })
+/*loading*/
+
 
 
 
