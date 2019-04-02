@@ -8,9 +8,10 @@
     -moz-box-sizing:border-box;
     -o-box-sizing:border-box;
     
-    
-
-}
+  }
+  body{
+     font-family: 'Playfair Display', serif;
+  }
 /* .owl-stage,.owl-item {
     width: 100% !important;
 } */
@@ -474,7 +475,7 @@ padding: 20px;
 }
 .footer .news #btn1{
     position: absolute;
-        padding: 14px 2px;
+        padding: 10px 2px;
     width: 12%;
     background: #ff9000;
     border: 0;
