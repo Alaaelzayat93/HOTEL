@@ -1,12 +1,13 @@
 /*global $,alert,console*/
+// loading
+ $(window).load(function() {
+  $(".loading,.spinner ").fadeOut(500);
+ });
 $(function(){
   'use strict'
   //adjust header height
   
-  // loading
- $(window).load(function() {
-  $(".loading,.spinner ").fadeOut(100);
- });
+  
   $('.header').height($(window).height());
   $(window).resize(function(){
     $('.header').height($(window).height());
