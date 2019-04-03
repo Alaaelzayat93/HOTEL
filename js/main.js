@@ -1,8 +1,10 @@
 /*global $,alert,console*/
 // loading
- $(window).load(function() {
-  $(".loading,.spinner ").fadeOut(500);
+ $(window).on('load',function() {
+  $(".loading,.spinner ").fadeOut(3000);
  });
+ 
+ //end loading
 $(function(){
   'use strict'
   //adjust header height
