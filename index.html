@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Travel Agancy</title>
+     <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
 
@@ -17,8 +20,10 @@
     <link rel="stylesheet" href="css/fontawesome.css"/>
     <!---owl carousel-->
     <link rel="stylesheet" href="css/owl.carousel.css"/>
-        <link rel="stylesheet" href="css/owl.theme.default.css"/>
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="css/owl.theme.green.css"/>
+        <link rel="stylesheet" href="css/hover.css" media="all"/><!--hover library-->
+    <link rel="stylesheet" href="css/animate.css"/>
         <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -28,7 +33,7 @@
       <div class="container">
         
         <a class="navbar-brand" href="#">shahd<span> agency</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -64,7 +69,7 @@
         <ul class="slider">
           <li>
 
-            <h2>welcome to shahd <span>agency</span></h2>
+            <h2 class="wow sideOutDown">welcome to shahd <span>agency</span></h2>
             <p>room availability checker and booking</p>
             <button>explore</button>
             
@@ -95,10 +100,10 @@
   <!-----about-------->
   <div class="about">
     <div class="container">
-    <h1>about shahd agency</h1>
+    <h1 class="wow jello">about shahd agency</h1>
     <p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. Phasellus accumsan urna vitae molestie interdum. Nam sed placerat libero, non eleifend dolor.</p>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 wow bounceInLeft" data-wow-duration="7s">
           <div class="part">
             <img src="img/room1.jpg"/>
               <div class="overlay">
@@ -111,7 +116,7 @@
           </div>
       </div>
    </div>
-        <div class="col-md-3">
+        <div class="col-md-3 wow fadeInDown">
             <div class="part">
               <img src="img/room2.jpg"/> 
                 <div class="overlay">
@@ -125,7 +130,7 @@
              </div>
           </div>
       </div>
-        <div class="col-md-3">
+        <div class="col-md-3 wow fadeInDown">
           <div class="part">
             <img src="img/room3.jpg"/>
              <div class="overlay">
@@ -139,7 +144,7 @@
         </div>
       </div>
   </div>
-      <div class="col-md-3">
+      <div class="col-md-3 wow wow bounceInRight" data-wow-duration="5s">
          <div class="part">
            <img src="img/room4.jpg"/>
               <div class="overlay">
@@ -336,7 +341,7 @@
 <div class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-2 contact">
+      <div class="col-md-2 contact wow swing">
         <h3>contact us</h3>
         <address>
           <i class="fas fa-map-marker-alt"></i>
@@ -350,7 +355,7 @@
             <i class="fas fa-phone"></i>
            +20 0122 560 253 658 
           </li>
-          <div class="icons">
+          <div class="icons wow swing">
             <i class="fab fa-facebook-f"></i>
               <i class="fab fa-twitter"></i>
               <i class="fas fa-basketball-ball"></i>
@@ -359,7 +364,7 @@
           </div>
         </ul>
       </div>
-      <div class="col-md-2 links">
+      <div class="col-md-2 links wow swing">
         <h3>links</h3>
         <ul class="list-unstyled">
           <li>
@@ -374,23 +379,23 @@
           <i class="fa fa-angle-double-right"></i>terms&conditions</li>
         </ul>
       </div>
-      <div class="col-md-3 plog2">
+      <div class="col-md-3 plog2 wow swing">
       <h3>latest plog</h3>
       <img src="img/swim.jpg"/>
       <div class="content">
-        LOREM IPSUM IS SIMPLY DUMMY TEXT 
+        lorem ipsum is adolar sit amet. 
 
       </div>
 
       <!---2--->
       <img src="img/spa.jpg"/>
       <div class="content">
-        LOREM IPSUM IS SIMPLY DUMMY TEXT 
+        lorem ipsum is adolar sit amet. 
 
 
       </div>
       </div>
-      <div class="col-md-3 news  animation-name: slideInLeft;">
+      <div class="col-md-3 news  wow swing "data-wow-duration="5s">
         <h3>newsletter signup</h3>
         <p>Subscribe to Our Newsletter </p>
         <input type="email" placeholder="enter your email"/>
@@ -401,7 +406,7 @@
 </div>
 <!--footer2-->
 <div class="footer2">
-    <p>Copyright © 2018 Listing. All rights reserved | This template is made with <i class="fas fa-heart"></i>by Alaaelzayat
+    <p>Copyright © 2018 Listing. All rights reserved | This template is made with <i class="fas fa-heart wow zoomIn"></i>by Alaaelzayat
     </div>
     <!--loading------>
   <div class="loading">
@@ -424,6 +429,8 @@
           <script src="js/owl.navigation.js"></script>
           <script src="js/jquery.nicescroll.js"></script>
           <script src="lib/angular.min.js"></script>
+          <script src="js/wow.min.js"></script>
+  <script>new WOW().init(); </script>
     <script src="lib/angular-route.js"></script>
     <script src="js/app.js"></script>
           <script src="js/main.js"></script>
